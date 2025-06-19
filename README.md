@@ -12,8 +12,12 @@ A modern React Native application for time tracking and activity logging with a 
 - Settings configuration (planned features)
 
 ## Screenshots
-
-[Future: Add screenshots of the main screens]
+Home
+![IMG_3488](https://github.com/user-attachments/assets/aa9bcc56-7016-43b5-b0dd-663a056cc10c)
+Logs
+![IMG_3489](https://github.com/user-attachments/assets/a30b0906-d80c-4234-b322-1693b99d51c5)
+Settings
+![IMG_3490](https://github.com/user-attachments/assets/bbc112a8-f8de-4919-a476-90a78d275479)
 
 ## Technologies Used
 
