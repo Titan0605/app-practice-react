@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef, createContext, useContext } from "react";
-import { StyleSheet, Text, View, Dimensions, TouchableOpacity, ScrollView, FlatList, Alert } from "react-native";
+import { StyleSheet, Text, View, Dimensions, TouchableOpacity, FlatList, Alert } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { Clock, Settings, History, Info, Dessert } from "lucide-react-native";
+import { Clock, Settings, History, Info } from "lucide-react-native";
 
 const Tab = createBottomTabNavigator();
 const AppContext = createContext();
@@ -21,7 +21,7 @@ export default function App() {
       <NavigationContainer>
         <Tab.Navigator
           screenOptions={({ route }) => ({
-            tabBarIcon: ({ focused, color, size }) => {
+            tabBarIcon: ({ color, size }) => {
               let IconComponent;
               // Determine which icon to display based on the route name
               if (route.name === "Time") {
